@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
+:root {
+    --body-font: "Inter", sans-serif;
+    --theme-bg: #1f1d2b;
+    --body-color: #808191;
+    --button-bg: #353340;
+    --video-bg: #252936;
+}
+
+.videos {
+    width: 280px;
+    height:280px;
+    padding-right: 20px;
+    background-color: var(--video-bg);
+    margin: 2%;
+}
+
+.video-author {
+    /* position: absolute; */
+    left: 210px;
+    bottom:22px ;
+}
+
+.author-img__wrapper {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.author-img {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    padding: 4px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.imagee {
+    width: 280px;
+    height:160px;
+}
+
+.nameee {
+    color: #aaa;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.imageNameUser{
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemOffreTitle {
+    display: flex;
+    flex-direction: column;
+    margin-top: -13px;
+}
+
+.titleO {
+    width: 80%;
+    font-size: small;
+    color: #aaa;
+    padding-left: 20px;
+}
+
+.titleNameee {
+    color: #FFF;
+    padding-left: 30px;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.infoOffre{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.monthRent{
+    width:20%;
+    font-weight: bold;
+    font-size: small;
+    color:#0594DF;
+}
+
+.rentM{
+    font-size: x-small;
+}
+
+.seeMore{
+    margin-top: 12px;
+    display:flex;
+    flex-direction: row;
+    float: right;
+}
+
+.titleDetails{
+    color:#FFF;
+    font-size: small;
+    font-weight: bold;
+}

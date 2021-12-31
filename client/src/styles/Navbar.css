@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+.header__left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 15%;
+    justify-content: space-around;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+h4 {
+    font-family: 'Comforter', cursive;
+    font-weight: bold;
+    color: #0594DF;
+    letter-spacing: 3px;
+}
+
+#header__middle {
+    display: flex;
+    margin: 0 30px;
+    cursor: pointer;
+    justify-content:flex-end;
+    width: 45%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.btnNavbar {
+    display: flex;
+    flex-direction: row;
+}
+
+#offers{
+    padding-right:40px;
+}
+#demands{
+    padding-right:40px;
+}
+
+#home{
+    width:100px;
+    height:66px;
+}
+#home:hover{
+    background-color:#0594DF;
+}
+#register{
+    width:100px;
+    height:66px;
+}
+#register:hover{
+    background-color:#0594DF;
+}
+#login{
+    width:100px;
+    height:66px;
+}
+#login:hover {
+    background-color:#0594DF;
+}
+#login.active {
+    background-color:#0594DF;
+}
+
+.toollbar {
+    background-color: #050506;
+    justify-content: space-between;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-btn {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    border-left: 2px solid #ddd;
+}
+
+.profile-btn img {
+    width: 32px;
+    height: 32px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.profile-btn span {
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 700;
+    width:300px
+}
+
+@media screen and (max-width: 720px) {
+    .profile-btn span {display: none}}

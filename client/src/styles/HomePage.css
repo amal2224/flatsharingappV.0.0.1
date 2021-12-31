@@ -1,0 +1,100 @@
+.homePContaint{
+    display: flex;
+    flex-direction: row;
+}
+.homePageContanct{
+    background-color: #09090a;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.3);
+    margin: 1%;
+    padding:1%;
+}
+
+.stories{
+    width:30%;
+    margin-right: 1%;
+}
+.stories .user-img {
+    border: 3px solid #0594DF;
+}
+
+.stories .album-date {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.side-title {
+    font-family: "DM Sans", sans-serif;
+    color: #5c5e6e;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 18px;
+    flex-direction:row;
+}
+.user-img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+.username {
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    flex: 1;
+    color: rgb(131, 131, 131);
+}
+.album-date {
+    font-size: 15px;
+    color: #595c6c;
+    margin-top: 4px;
+}
+
+.Right-side{
+    padding:2%;
+    width:100%;
+}
+.demandss{
+    margin-top: 3%;
+}
+.status-menuH {
+    color: #ccc8db;
+    padding: 10px 14px;
+    line-height: 0.7;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px #045C94;
+}
+
+.offres{
+    margin-top: -1%;
+}
+/* userList page */
+.seeProfile{
+    color: #1771d6;
+}
+.infoNA{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#userListOffres{
+    background-color: #0594DF;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.contenuOffresListI{
+    display:flex;
+    flex-direction:row; 
+    flex-wrap:wrap;
+    width: 100%;
+}

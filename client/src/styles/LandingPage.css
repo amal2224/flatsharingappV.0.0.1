@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #3a4052;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.showcase {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.video-container {
+    margin-top: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    /* background: var(--primary-color) url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjlSvRFTtv856HNFPULKwnGel2OmDJVkDDLQO0ac3QErm6NXT9chgXwAXg1W89qQ5uYkM&usqp=CAU') no-repeat center center/cover; */
+}
+
+.video-container img {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.video-container:after {
+    content: '';
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.contenttt {
+    z-index: 2;
+}
+
+.btnn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+    border: solid #fff 1px;
+    margin-top: 25px;
+    opacity: 0.7;
+}
+
+.btnn:hover {
+    transform: scale(0.98);
+}
+
+#about {
+    padding: 40px;
+    text-align: center;
+    color: #aaa;
+}
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+#about h2 {
+    margin: 30px 0;
+    color: var(--primary-color);
+}
+
+.social a {
+    margin: 0 5px;
+}
+
+/*  */
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+
+:root {
+    --d: 700ms;
+    --e: cubic-bezier(0.19, 1, 0.22, 1);
+    --font-sans: "Rubik", sans-serif;
+    --font-serif: "Cardo", serif;
+}
+
+
+
+.bbody {
+    height: 100%;
+}
+
+.bbody {
+    display: grid;
+    place-items: center;
+}
+
+.page-content {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    max-width: 1024px;
+    margin: 0 auto 50px auto;
+    font-family: var(--font-sans);
+}
+
+@media (min-width: 600px) {
+    .page-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 800px) {
+    .page-content {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 90%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+    .card {
+        height: 350px;
+    }
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-position: 0 0; */
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+}
+
+.card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translateY(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+}
+
+.card:nth-child(1):before {
+    background-image: url(https://blog-www.pods.com/wp-content/uploads/2020/01/Toronto-roommates-sized-1024x683.jpg);
+}
+
+.card:nth-child(2):before {
+    background-image: url(https://blog-www.pods.com/wp-content/uploads/2020/06/39_1_Dog_Owner_Packing-2.jpg);
+}
+
+.card:nth-child(3):before {
+    background-image: url(https://www.gannett-cdn.com/-mm-/ae90d9e1da91b10785b9d30a1911b9a3f31d293e/c=0-16-320-197/local/-/media/2015/09/15/LAGroup/Shreveport/635779219712861808-how-to-create-the-perfect-roommate-agreement.jpg);
+}
+
+.card:nth-child(4):before {
+    background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_544352270_340761.jpg);
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    transition: transform var(--d) var(--e);
+    z-index: 1;
+}
+
+.content>*+* {
+    margin-top: 1rem;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.copy {
+    font-family: var(--font-serif);
+    font-size: 1.125rem;
+    font-style: italic;
+    line-height: 1.35;
+}
+
+.para {
+    color: #787785;
+}
+
+@media (hover: hover) and (min-width: 600px) {
+    .card:after {
+        transform: translateY(0);
+    }
+
+    .content {
+        transform: translateY(calc(100% - 4.5rem));
+    }
+
+    .content>*:not(.title) {
+        opacity: 0;
+        transform: translateY(1rem);
+        transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+
+    .card:hover,
+    .card:focus-within {
+        align-items: center;
+    }
+
+    .card:hover:before,
+    .card:focus-within:before {
+        transform: translateY(-4%);
+    }
+
+    .card:hover:after,
+    .card:focus-within:after {
+        transform: translateY(-50%);
+    }
+
+    .card:hover .content,
+    .card:focus-within .content {
+        transform: translateY(0);
+    }
+
+    .card:hover .content>*:not(.title),
+    .card:focus-within .content>*:not(.title) {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: calc(var(--d) / 8);
+    }
+
+    .card:focus-within:before,
+    .card:focus-within:after,
+    .card:focus-within .content,
+    .card:focus-within .content>*:not(.title) {
+        transition-duration: 0s;
+    }
+}
+
+.bottomPage {
+    color: #aaa;
+    text-align: center;
+
+}
+
+.bottomPage p {
+    color: #787785;
+}
+a{color:#fff}
+.btnbuttom {
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+    border: solid #fff 1px;
+    margin-top: 25px;
+    opacity: 0.7;
+}
+
+.btnbuttom:hover {
+    transform: scale(0.98);
+    background: #1161ee;
+    border: none;
+    border-radius: 50px;
+}

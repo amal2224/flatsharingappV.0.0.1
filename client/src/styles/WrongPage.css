@@ -1,0 +1,46 @@
+.wrongPage {
+    margin-top: 5px;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrongPage__left {
+    margin-left: 100px;
+    user-select: none;
+}
+
+.wrongPage__left h1 {
+    font-size: 72px;
+    color:#aaa;
+}
+
+.wrongPage__left p {
+    font-size: x-large;
+    margin: 0px 0 60px;
+    color:#aaa;
+}
+
+.wrongPage__left button {
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    background-color: #0594DF;
+    color: white;
+    padding: 10px 20px;
+}
+
+.wrongPage__right {
+    height: inherit;
+    width: 50vw;
+    overflow: hidden;
+}
+
+.wrongPage__right img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+}

@@ -1,0 +1,13 @@
+.profileComment {
+  width: 76%;
+  padding: 10px 5px;
+  box-shadow: 0px 0px 10px 3px rgba(128, 128, 128, 0.4);
+  border-radius: 15px 15px;
+  margin-left: 23%;
+  margin-top: 0;
+      background-color: #151728;
+
+}
+.addCommentContent__bottom{
+    color:white;
+}

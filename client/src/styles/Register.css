@@ -1,0 +1,116 @@
+.register-wrap{
+        width: 100%;
+        margin: auto;
+        max-width: 525px;
+        min-height: 630px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        padding-top: 2%;
+        background-color: #050506;
+        box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24),
+        0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+.register-wrap-signIn {
+    width: 100%;
+    margin: auto;
+    max-width: 525px;
+    min-height: 450px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    flex-direction: column;
+    padding-top: 2%;
+    background-color: #050506;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24),
+        0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+.tab {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: 30px 15px 10px 0;
+    color: #aaa;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.hr {
+    height: 2px;
+    margin-top: -50px;
+    margin-bottom: 60px;
+    background: #1161ee;
+}
+
+#register-Control{
+    margin-bottom: 15px;
+}
+.register-form {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #aaa;
+    font-size: 12px;
+    width:90%;
+    margin: auto;
+}
+
+.Register-input{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, .1);
+    /* color: #fff; */
+    display: block;
+}
+
+#label{
+    padding-left: 20px;
+    color:#82A3AC;
+    font-size: 12px;
+}
+
+#label-G {
+    padding-left: 20px;
+    color: #82A3AC;
+    font-size:12px;
+}
+
+#radioGroup{
+    margin-left: 20px;
+}
+.errColor {
+    color: red;
+    font-size:10px;
+    font-style: italic;
+}
+.error_register {
+    padding-left: 20px;
+    color: rgba(156, 154, 154, 0.644);
+    font-size:10px;
+    font-style: italic;
+}
+
+.group {
+    background-color: Transparent;
+    color: #fff;
+    text-transform: uppercase;
+    width: 90%;
+    border: 1px solid #3498db;
+    padding: 15px 20px;
+    border-radius: 25px;
+    /* margin-top: 20px; */
+    margin:0 auto;
+}
+.group:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #1161ee;
+}
+
+#gender-Control{
+    margin-bottom: 10px;
+}
+
+#marginSignin{
+    margin-bottom: 5%;
+    background-color: red;
+}

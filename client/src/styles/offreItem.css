@@ -1,0 +1,21 @@
+#img-Offre{
+    width:300px;
+}
+
+#offerComponent{
+    padding-right: 50px;
+}
+/* align-content: space-between; */
+.dateAddr{
+    display:flex;
+    flex-direction: row;
+}
+
+.offerComponent-title{
+    color: #aaa;
+    font-weight: bold;
+    text-align: center;
+}
+.offerComponent-date {
+    color: #4A686A;
+}
